@@ -190,9 +190,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="L9L-D5-aFV">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="L9L-D5-aFV">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="bML-Ha-bcU">
                                     <size key="itemSize" width="182" height="209"/>
@@ -224,6 +223,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="10p-Ue-Uwn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="L9L-D5-aFV" firstAttribute="leading" secondItem="10p-Ue-Uwn" secondAttribute="leading" id="Vnb-jQ-0Sn"/>
+                            <constraint firstItem="L9L-D5-aFV" firstAttribute="trailing" secondItem="10p-Ue-Uwn" secondAttribute="trailing" id="Y1z-VH-9yV"/>
+                            <constraint firstItem="L9L-D5-aFV" firstAttribute="top" secondItem="4VH-Mp-IT3" secondAttribute="top" id="h8B-fw-lUR"/>
+                            <constraint firstAttribute="bottom" secondItem="L9L-D5-aFV" secondAttribute="bottom" id="kXT-Sj-coF"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Superhero" id="pcw-LW-4lD"/>
                     <connections>
